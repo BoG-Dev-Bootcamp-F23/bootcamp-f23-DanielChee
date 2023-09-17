@@ -1,5 +1,9 @@
-body {
+.body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 97vh; /* Make sure the container takes up the full viewport height */
 }
 .navbar {
     display: flex;
@@ -57,4 +61,47 @@ body {
     height: 60px;
     margin: 20px;
   }
+
+  .central {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .central h1 {
+    font-size: 80px;
+    font-weight: 100px;
+    margin: 25px;
+    margin-top: 0px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
   
+  .search input[type="text"] {
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #ccc; /* Add a border for a visual outline */
+    border-radius: 40px;
+    padding: 10px;
+  }
+
+  .search button {
+    height: 50px;
+    width: 150px; 
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: medium;
+    border-color:#ccc;
+  }
+
+  .footer {
+    align-self: flex-end;
+  }
