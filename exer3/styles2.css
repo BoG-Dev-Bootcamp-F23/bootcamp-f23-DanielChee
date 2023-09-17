@@ -18,6 +18,34 @@ body {
     border: dotted 5px black
 }
 
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
 .header img {
     height: 80px;
 }
+
+.info {
+    font-family: "Consolas";
+    font-size: 17px;
+}
+
+.info img {
+    height: 160px;
+    border: groove 10px black;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194, 180, 31);
+    padding: 40px;
+    border: solid 6px rgb(58, 52, 6);
+    margin: 60px;
+    border-radius: 30px;
+}
+
