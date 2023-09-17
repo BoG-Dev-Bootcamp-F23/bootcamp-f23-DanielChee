@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(78, 78, 78);
+}
+
+.length {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: rgb(54, 54, 54);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border: dotted 5px black
+}
+
+.header img {
+    height: 80px;
+}

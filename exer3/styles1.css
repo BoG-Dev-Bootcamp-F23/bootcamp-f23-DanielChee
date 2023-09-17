@@ -102,6 +102,11 @@
     border-color:#ccc;
   }
 
+  .search button:hover {
+    cursor: pointer;
+    background-color: #dfdfdf;
+  }
+
   .footer {
     align-self: flex-end;
   }
