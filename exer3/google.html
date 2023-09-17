@@ -15,9 +15,9 @@
                 </div>
                 <div class="links">
                     <img class="profile" src="images/Profile.PNG">
-                    <li><a href="#"  onClick=alert()>Images</a></li>
-                    <li><a href="#">Bmail</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#" id="image">Images</a></li>
+                    <li><a href="#" id="b">Bmail</a></li>
+                    <li><a href="#" id="aboot">About Us</a></li>
                 </div>
             </ul>
             <div class="central">
@@ -25,7 +25,7 @@
                 <div class="search">
                     <span>
                         <input type="text" placeholder="Search Bootle or type a URL (not really tho)">
-                        <a href="info.html" target="_blank"><button>Search</button></a>
+                        <a href="info.html" target="_blank"><button id="search">Search</button></a>
                     </span>
                 </div>
             </div>
@@ -33,5 +33,22 @@
                 Made by Daniel Ayoung-Chee © 09/15/2023
             </div>
         </div>
+        <li><a href="#" id="aboutUsLink">About Us</a></li>
+
+        <script>
+        document.getElementById('aboot').addEventListener('click', function() {
+            alert("Wait, you weren't actually supposed to click on me.");
+        });
+        document.getElementById('b').addEventListener('click', function() {
+            alert("Wait, you weren't actually supposed to click on me.");
+        });
+        document.getElementById('image').addEventListener('click', function() {
+            alert("Wait, you weren't actually supposed to click on me.");
+        });
+        document.getElementById('search').addEventListener('click', function() {
+            alert("Are you absolutely sure that you want to proceed to the next page?");
+        });
+        </script>
+
     </body>
 </html>

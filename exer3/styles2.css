@@ -15,7 +15,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    border: dotted 5px black
+    border: dotted 5px black;
+    color: rgb(149, 1, 1);
 }
 
 h2 {
@@ -52,4 +53,5 @@ h2 {
 .container div {
     margin: 5px;
     background:rgb(232, 220, 90);
+    border: double 3px rgb(75, 67, 9);
 }
