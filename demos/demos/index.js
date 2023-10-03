@@ -10,7 +10,7 @@ async function fetchData() {
     const weather = data.weather[0].description;
     console.log(response);
 
-    const weatherDiv = document.getElementById("weather-info");
+    const nameDiv = document.getElementById("name");
     const weatherHTML = `
     <p>City: ${cityName}</p>
     <p>Temperature: ${temperature}</p>
@@ -22,3 +22,17 @@ async function fetchData() {
 document.addEventListener('click', () => {
     fetchData();
 });
+
+let count = 0;
+
+document.addEventListener('click', (event) => {
+    const button = document.getElementById("button");
+    if (event.target === button) {
+        //update count
+        count++;
+        const textElement = document.getElementById("button-info");
+        textElement.textContent = count;
+    }
+
+});
+
