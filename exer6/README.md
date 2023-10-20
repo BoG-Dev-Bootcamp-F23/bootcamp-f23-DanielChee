@@ -4,8 +4,7 @@
 In this exercise, bootcampers will familiarize themselves with state management and hooks.
 
 ## Submission
-See the submission instructions down below.
-- **Due Date**: 10-19-2023
+https://youtu.be/p_IUwmZ81mE
 
 ## Instructions
 
@@ -60,8 +59,4 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 
 **Green**
 
-<<<<<<< HEAD
 <img width="500" alt="Screenshot 2023-10-16 at 10 08 22 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/990cb8e8-8441-4f05-bc1f-f9991bf977bb">
-=======
-<img width="500" alt="Screenshot 2023-10-19 at 7 17 18 PM" src="https://github.com/BoG-Dev-Bootcamp-F23/bootcamp-f23/assets/113480497/043e7a06-614f-41f8-8ef9-5c6cf7523b02">
->>>>>>> ba468b572162a5d6507b6d95030c27f0a2f83f73
