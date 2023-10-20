@@ -61,4 +61,3 @@ As a bonus, once the rest of the code displays successfully, we recommend incorp
 **Green**
 
 <img width="500" alt="Screenshot 2023-10-16 at 10 08 22 PM" src="https://github.com/zinichakraborty/bootcampexercises-f23/assets/113480497/990cb8e8-8441-4f05-bc1f-f9991bf977bb">
-
