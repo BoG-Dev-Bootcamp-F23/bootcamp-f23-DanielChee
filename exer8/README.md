@@ -1,3 +1,5 @@
+SUBMISSION: https://youtu.be/q3A88w9JmkA
+
 # Exercise 8 - Poké API
 
 ## Description
