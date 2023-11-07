@@ -1,3 +1,8 @@
+NOTE: This is so sad. I used Windows Game Bar to screen record my whole screen but didnt realize it can't change between different screens. Ill definitely fix this issue for the next exercise, but for now I recorded two seperate videos in Postman and MongoDB where I perform the database actions. Please watch the postman video first, then the mongo db video (feel free to skip around on the second video, theres no audio its just me adding and changing documents). Really sorry for the inconvenience!
+
+POSTMAN VIDEO: https://youtu.be/-I-rn9QzUWI
+MONGODB VIDEO: https://youtu.be/vN_fXXSNnls
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
